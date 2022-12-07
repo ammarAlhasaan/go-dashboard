@@ -1,0 +1,96 @@
+
+.h1,
+h1 {
+  font-size: var(--fs-h1);
+  font-weight: 700;
+  line-height: var(--lh-h1);
+  margin-top: 0;
+}
+
+.h2,
+h2, {
+  font-size: var(--fs-h2);
+  font-weight: 700;
+  line-height: var(--lh-h2);
+  margin-top: 0;
+}
+
+.h3,
+h3 {
+  font-size: var(--fs-h3);
+  font-weight: 700;
+  line-height: var(--lh-h3);
+  margin-top: 0;
+}
+
+.h4,
+h4 {
+  font-size: var(--fs-h4);
+  font-weight: 700;
+  line-height: var(--lh-h4);
+  margin-top: 0;
+}
+
+.h5,
+h5 {
+  font-size: var(--fs-h5);
+  font-weight: 700;
+  line-height: var(--lh-h5);
+  margin-top: 0;
+}
+
+.h6,
+h6 {
+  font-size: var(--fs-h6);
+  font-weight: 700;
+  line-height: var(--lh-h6);
+  margin-top: 0;
+}
+
+.li,
+li {
+  font-size: var(--fs-li);
+  line-height: var(--lh-li);
+}
+
+.plg,
+p {
+  font-size: var(--fs-p-lg);
+  line-height: var(--lh-p-lg);
+  margin-top: 0;
+}
+
+.pmd,
+.pmd p {
+  font-size: var(--fs-p-md);
+  line-height: var(--lh-p-md);
+  margin-top: 0;
+}
+
+.psm,
+.psm p {
+  font-size: var(--fs-p-sm);
+  line-height: var(--lh-p-sm);
+  margin-top: 0;
+}
+
+.button-text,
+button {
+  font-size: var(--fs-button);
+}
+
+.link,
+a {
+  font-size: var(--fs-nav-link);
+}
+
+.text-center {
+  text-align: center;
+}
+.cut-text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 160px;
+  height: 1.2em;
+  white-space: nowrap;
+}

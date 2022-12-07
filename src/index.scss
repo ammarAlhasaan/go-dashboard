@@ -1,0 +1,28 @@
+@import "assets/styles/typography";
+@import "assets/styles/bootstrap-grid.css";
+@import "assets/fonts/gilroy/index.css";
+@import "assets/styles/variables";
+@import "assets/styles/theme";
+
+
+body {
+  margin: 0;
+  font-family: 'Gilroy', serif;
+  color: #333333;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: 1px solid var(--ca-gray-400);
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid var(--ca-gray-300);
+}

@@ -1,0 +1,13 @@
+.DashboardLayout {
+  .content {
+    padding-left: var(--ca-sidebar-width);
+    &.sm {
+      padding-left: var(--ca-sidebar-width-sm);
+    }
+  }
+
+  .wrapper {
+
+  }
+}
+

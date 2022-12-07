@@ -1,0 +1,35 @@
+.Button {
+  border-radius: var(--ca-botton-radius);
+  height: var(--ca-botton-height);
+  font-size: var(--ca-botton-fs);
+  line-height: var(--ca-botton-fs);
+  font-family: inherit;
+  text-align: center;
+  transition: 300ms all;
+  outline: none;
+  font-weight: 700;
+
+  &[data-variation='filled']:not(:disabled) {
+    border: 2px solid var(--ca-base-color);
+    background-color: var(--ca-base-color);
+    color: var(--ca-white, white);
+    &:hover {
+      opacity: .9;
+    }
+  }
+
+  &[data-variation='line']:not(:disabled) {
+    border: 2px solid var(--ca-base-color);
+    background-color: transparent;
+    color: var(--ca-base-color);
+
+    &:hover {
+      opacity: .9;
+    }
+  }
+}
+
+.fullWidth {
+  width: 100%;
+}
+

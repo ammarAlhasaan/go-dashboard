@@ -1,0 +1,25 @@
+.Breadcrumb {
+  .links {
+    ul {
+      list-style: none;
+      padding: 0;
+      display: inline-flex;
+    }
+
+    .sideLink {
+      color: var(--ca-gray-dark);
+      display: flex;
+      align-items: center;
+      .text {
+        margin: 0 .5rem;
+      }
+
+      &.active {
+        .text {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+

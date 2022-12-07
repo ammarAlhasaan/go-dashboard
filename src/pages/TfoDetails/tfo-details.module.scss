@@ -1,0 +1,37 @@
+.Tfo {
+  .tabs {
+    gap: 1rem
+  }
+
+  .tabButton {
+    width: 135px;
+    @media (max-width: 768px) {
+      width: 120px;
+    }
+  }
+
+  .userContactIcon {
+    color: var(--ca-base-color);
+    background-color: var(--ca-base-color-hilight);
+    border-radius: var(--ca-border-radius-md);
+    width: 1rem;
+    height: 1rem;
+    padding: .5rem;
+  }
+
+  .insurance, .tags, .userIcons {
+    gap: .4rem;
+    color: var(--ca-gray-300)
+  }
+
+
+  .cardRow {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .creditsUsed {
+    color: var(--ca-base-color)
+  }
+}
+

@@ -1,0 +1,46 @@
+{
+  "user": {
+    "first_name": "Hussien",
+    "last_name": "Mahmoud",
+    "email": "Hussien@carasti.com",
+    "phone_country_code": "971",
+    "phone": "547012221",
+    "profile_img": null,
+    "role": "Super Admin",
+    "date_of_birth": "12-25-1990",
+    "wallet_balance": 100,
+    "cac": 1300,
+    "prn": "123456789",
+    "ltv": "12000",
+    "sign_up_date": "01-01-2022",
+    "sign_up_source": "Referral"
+  },
+  "booking": {
+    "reference": "CRT1234567",
+    "deposit": 750,
+    "primary_status": "ongoing",
+    "secondary_status": "Pending Collection",
+    "delivery_method": "delivery",
+    "returned_user": true,
+    "car_make": "BMW",
+    "car_model": "3 series",
+    "car_year": 2021,
+    "booking_date": "04-22-2021",
+    "booking_type": "monthly",
+    "start_date": "04-25-2021",
+    "end_date": "07-25-2021",
+    "price": 2999,
+    "partner_name": "diamondlease",
+    "insurance": [
+      "cdw",
+      "key",
+      "tyre"
+    ],
+    "credits_used": 650,
+    "credit_limit": 750,
+    "rental_os": 250,
+    "tfo_os": 400,
+    "invoice_ageing": 100,
+    "days_untill_renewal": 20
+  }
+}

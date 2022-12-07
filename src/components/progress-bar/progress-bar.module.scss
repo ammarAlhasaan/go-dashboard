@@ -1,0 +1,15 @@
+.ProgressBar {
+  width: 100%;
+
+  .container {
+    overflow: hidden;
+    background: rgba(238, 238, 238, 1);
+    border-radius: 60px;
+  }
+
+  .completed {
+    width: 10%;
+    height: 12px;
+    background-color: var(--ca-base-color)
+  }
+}
