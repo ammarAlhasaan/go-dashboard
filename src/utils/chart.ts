@@ -23,7 +23,7 @@ const getColor = (value: any) => {
     color = '#FF4C49'
   }
   return {
-    data: [value, value - 30],
+    data: [1 - (value/30), value/30],
     color
   }
 }
