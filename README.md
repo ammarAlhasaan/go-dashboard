@@ -1,4 +1,4 @@
-# Carasti assignment
+# Go Dashboard
 
 ### Folder Structure
 
